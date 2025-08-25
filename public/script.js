@@ -155,7 +155,7 @@ async function loadGames(steamId) {
       list.appendChild(li);
     }
   } catch (e) {
-    status.textContent = "Mete to SteamID64 (Dec)... Upa.";
+    status.textContent = "Mete tu SteamID64 (Dec)... Upa.<p> Y eso???</p>";
     console.error(e);
   }
 }
