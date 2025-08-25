@@ -155,7 +155,7 @@ async function loadGames(steamId) {
       list.appendChild(li);
     }
   } catch (e) {
-    status.textContent = "Error cargando juegos. Ver consola.";
+    status.textContent = "Mete to SteamID64 (Dec)... Upa.";
     console.error(e);
   }
 }
